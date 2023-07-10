@@ -6,9 +6,48 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-nav{
-    display: flex;
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 100px;
+    height: 54px;
+    color: var(--white-color, #FFF);
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    
+    line-height: normal;
+
+
 }
+
 .R{
     color: #FD6E0A;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.nav-title{
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800;
+}
+.A{
+    display: flex;
+    align-items: center;
+   
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
 }
