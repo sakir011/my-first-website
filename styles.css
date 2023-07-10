@@ -1,0 +1,14 @@
+*{
+    /* margin: 0%;
+    padding: 0%; */
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.R{
+    color: #FD6E0A;
+}
